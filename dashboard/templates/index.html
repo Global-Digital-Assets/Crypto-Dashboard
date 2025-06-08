@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Crypto Trading Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body { background: #181a20; color: #eaeaea; font-family: monospace; margin: 0; padding: 2rem; }
+        pre { font-size: 0.77rem; line-height: 1.4; }
+        .up { color: #00e676; }
+        .down { color: #ff5252; }
+        .active { color: #00e676; }
+        .stale { color: #ffd600; }
+        .bold { font-weight: bold; }
+        #countdown { float: right; font-size: 0.95em; color: #aaa; }
+    </style>
+</head>
+<body>
+    <pre id="dashboard-content">
+Loading dashboard...
+    </pre>
+    <div id="countdown">Refreshing in 60s</div>
+    <script src="/static/dashboard.js"></script>
+</body>
+</html>
